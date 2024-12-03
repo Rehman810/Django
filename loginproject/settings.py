@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-luqy3wg@t$*(%*9gkwgy83=gv3fi98aalt@ze2rb^5#9m$4+92'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['.vercel.app', '.now.sh', '127.0.0.1']
 
@@ -84,7 +84,7 @@ DATABASES = {
         'USER': 'root',
         'PASSWORD': 'UIFEJNudQPLVyugSnWUzDPsYgahDglhT',
         'HOST': 'junction.proxy.rlwy.net',  # Or your DB host
-        'PORT': '54205',       # Default MySQL port
+        'PORT': '54205',     
     }
 }
 
